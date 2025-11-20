@@ -2,8 +2,11 @@ import {SignedIn, SignedOut, SignInButton, UserButton} from "@clerk/clerk-react"
 import {Route, Routes,Navigate} from "react-router";
 import AuthPage from "./pages/AuthPage.jsx";
 import HomePage from "./pages/HomePage.jsx";
+import {useEffect, useState} from "react";
+
 
 const App = ()=>{
+
     return (
         <header>
          <>
